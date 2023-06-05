@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "HKGroteskWide-Regular";
+  src: url("../fonts/HKGroteskWide-Regular.otf") format("opentype");
+}
+.img-11 {
+  width: 656px;
+  height: 900px;
+  object-fit: cover;
+}
+.fl-1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+form {
+  align-self: center;
+  justify-content: center;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.submit {
+  border: none;
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  width: 138px;
+  font-family: "HKGroteskWide-Regular";
+}
+.frm {
+  background: #ffffff;
+  border: none;
+  font-family: "HKGroteskWide-Regular";
+  font-size: 15px;
+  border-radius: 7px;
+}

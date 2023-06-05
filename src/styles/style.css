@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "HKGroteskWide-Regular";
+  src: url("../fonts/HKGroteskWide-Regular.otf");
+}
+@font-face {
+  font-family: "HKGroteskWide-Light";
+  src: url("../fonts/HKGroteskWide-Light.otf");
+}
+@font-face {
+  font-family: "HKGroteskWide-Medium";
+  src: url("../fonts/HKGroteskWide-Medium.otf");
+}
+@font-face {
+  font-family: "HKGroteskWide-Bold";
+  src: url("../fonts/HKGroteskWide-Bold.otf");
+}
+body {
+  margin: 0;
+  background: #f6f6f8;
+}
+ul {
+  z-index: 9999;
+  position: absolute;
+  left: 150px;
+  top: 50px;
+  font-size: 18px;
+  line-height: 60.8%;
+  width: 70rem;
+  /* or 11px */
+  font-family: "HKGroteskWide-Regular";
+  font-weight: 300;
+  letter-spacing: 0.065em;
+  text-transform: capitalize;
+  box-shadow: 3px 22px 29px 2px rgba(0, 0, 0, 0.25);
+  background: #efd3b8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 11px 52px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.nav-element {
+  cursor: pointer;
+}
+.hero {
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+.hero-text {
+  width: 1000px;
+  height: 304px;
+  font-weight: 500;
+  font-size: 67px;
+  line-height: 76px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: "HKGroteskWide-Medium";
+  color: rgba(0, 0, 0, 0.1);
+}
+.hero-text.after {
+  color: black;
+}
+#bookbtn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 184px;
+  height: 90px;
+  letter-spacing: -0.065em;
+  text-transform: capitalize;
+  font-family: "HKGroteskWide-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 70.8%;
+  color: #ffffff;
+  background: linear-gradient(
+    110.92deg,
+    rgba(100, 127, 47, 0.77) 36.17%,
+    rgba(100, 127, 47, 0.3234) 105.4%
+  );
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 58px;
+}
+#bookbtn:hover {
+  background: rgba(100, 127, 47, 0.42);
+  backdrop-filter: blur(0.5px);
+  border-radius: 58px;
+}
+#plant {
+  position: absolute;
+  left: 1000px;
+  top: 420px;
+  position: absolute;
+  width: 446px;
+  height: 494px;
+}
+.services-img {
+  width: 1440px;
+  height: 356px;
+}
+.services-1 {
+  align-items: center;
+  background-color: #efd3b8;
+  display: flex;
+  flex-direction: column;
+  min-height: 900px;
+  width: 1440px;
+}

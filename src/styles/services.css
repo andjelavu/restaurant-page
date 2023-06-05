@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "HKGroteskWide-Bold";
+  src: url("../fonts/HKGroteskWide-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "HKGroteskWide-Regular";
+  src: url("../fonts/HKGroteskWide-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "HKGroteskWide-Medium";
+  src: url("../fonts/HKGroteskWide-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "HKGroteskWide-ExtraBold";
+  src: url("../fonts/HKGroteskWide-ExtraBold.otf") format("opentype");
+}
+
+.main-text {
+  width: 203px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 411px;
+  left: 650px;
+  font-family: "HKGroteskWide-Regular";
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+  line-height: 70.8%;
+  letter-spacing: -0.065em;
+  text-transform: capitalize;
+}
+.bk-photo {
+  width: 100%;
+  height: 356px;
+  /* background: url("./v21_102.png");*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.scroll {
+  width: 66px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 813px;
+  left: 720px;
+  font-family: "HKGroteskWide-ExtraBold";
+  font-weight: ExtraBold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.articles {
+  background: #f6f6f8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10.2941px 0px 10.2941px 10.2941px;
+  gap: 10.29px;
+
+  position: absolute;
+  width: 1330px;
+  height: 296.47px;
+  left: 79px;
+  top: 445.76px;
+}
+.article {
+  width: 253.24px;
+  height: 275.88px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 21.6176px;
+  font-family: "HKGroteskWide-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.4706px;
+  line-height: 81.8%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.article:hover {
+  width: 338.68px;
+  height: 367.47px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 123.404px;
+}
+.bold {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 20px;
+}

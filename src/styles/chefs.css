@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "HKGroteskWide-Regular";
+  src: url("../fonts/HKGroteskWide-Regular.otf") format("opentype");
+}
+.chef-img {
+  position: absolute;
+  width: 701px;
+  height: 900px;
+  left: 739px;
+  top: 0px;
+  object-fit: cover;
+}
+.h11-1 {
+  position: absolute;
+  width: 1270px;
+  height: 20px;
+  left: 120px;
+  top: 299px;
+
+  font-family: "HKGroteskWide-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 84.3%;
+  /* or 20px */
+
+  text-align: center;
+  letter-spacing: 0.205em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.menu {
+  display: flex;
+  position: absolute;
+  width: 219px;
+  height: 204px;
+  left: 114px;
+  top: 379px;
+  background: #d9d9d9;
+  border-radius: 113px;
+  align-items: center;
+  justify-content: center;
+  font-family: "HKGroteskWide-Regular";
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 8px;
+}
+.menu.hover {
+  position: absolute;
+  width: 650px;
+  height: 442px;
+  left: 114px;
+  top: 379px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 39px;
+  /* or 15px */
+  text-transform: none;
+  text-align: center;
+  letter-spacing: -0.00005em;
+  background: #ffffff90;
+  border-radius: 54px;
+}
+.frch {
+  font-family: "HKGroteskWide-Regular";
+  font-style: normal;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+.btn-1 {
+  position: absolute;
+  width: 177px;
+  height: 148px;
+  left: 403px;
+  top: 553px;
+  background: #647f2f;
+  box-shadow: 45px 91px 17px 82px rgba(0, 0, 0, 0.25);
+  border-radius: 126px;
+  border: none;
+  color: #ffffff;
+  font-family: "HKGroteskWide-Regular";
+  cursor: pointer;
+}
