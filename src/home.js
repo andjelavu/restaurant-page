@@ -1,4 +1,6 @@
 import plant from "./imgs/plant.png";
+import render from "./functions/render.js"
+import contactPage from "./contact.js"
 
 const homePage = function () {
   document.body.style.background = "";
@@ -26,6 +28,11 @@ const homePage = function () {
   bookbtn.setAttribute("id", "bookbtn");
   bookbtn.textContent = "Book Now";
   hero.appendChild(bookbtn);
+
+  bookbtn.addEventListener("click", function(){
+    render();
+    contactPage();
+  })
 
   container.appendChild(hero);
 
