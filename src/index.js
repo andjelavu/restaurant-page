@@ -27,7 +27,7 @@ servicesButton.addEventListener("click", function () {
 
 const chefsButton = document.getElementById("chefsButton");
 chefsButton.addEventListener("click", function () {
-  render();
+   render();
   chefPage();
 });
 
