@@ -1,8 +1,8 @@
 import imgSrc from "./imgs/v35_121.png";
-import render from "./functions/render.js"
-import contactPage from "./contact.js"
+import render from "./functions/render"
+import contactPage from "./contact"
 
-const chefPage = function () {
+const chefPage = () => {
   const bImg = document.createElement("img");
   bImg.src = imgSrc;
   bImg.alt = "Image";
@@ -60,21 +60,21 @@ const chefPage = function () {
 
   content.appendChild(menu);
 
-  menu.addEventListener("mouseover", function () {
+  menu.addEventListener("mouseover", () => {
     menu.innerHTML = "";
     menu.classList.add("hover");
     content.removeChild(button1);
     menu.appendChild(menuText);
   });
 
-  menu.addEventListener("mouseout", function () {
+  menu.addEventListener("mouseout", () => {
     menu.removeChild(menuText);
     menu.classList.remove("hover");
     menu.innerHTML = "Hover to see the menu";
     content.appendChild(button1);
   });
 
-  button1.addEventListener("click", function () {
+  button1.addEventListener("click", () => {
     render();
     contactPage();
   });

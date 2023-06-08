@@ -1,8 +1,8 @@
-import plant from "./imgs/plant.png";
-import render from "./functions/render.js"
-import contactPage from "./contact.js"
+import plant from './imgs/plant.png';
+import render from './functions/render';
+import contactPage from './contact';
 
-const homePage = function () {
+const homePage = () => {
   document.body.style.background = "";
   const content = document.getElementById("content");
   const header = document.querySelector(".navigation-bar");
@@ -18,7 +18,7 @@ const homePage = function () {
   heroText.classList.add("hero-text");
   heroText.textContent = "Booking a private chef has never been easier.";
 
-  setTimeout(function () {
+  setTimeout(() => {
     heroText.classList.add("after");
   }, 2500);
 
@@ -29,15 +29,15 @@ const homePage = function () {
   bookbtn.textContent = "Book Now";
   hero.appendChild(bookbtn);
 
-  bookbtn.addEventListener("click", function(){
+  bookbtn.addEventListener("click", () => {
     render();
     contactPage();
-  })
+  });
 
   container.appendChild(hero);
 
-  const plantImg = document.createElement("img");
-  plantImg.setAttribute("id", "plant");
+  const plantImg = document.createElement('img');
+  plantImg.setAttribute('id', 'plant');
   plantImg.src = plant;
   plantImg.alt = "Plant imgh";
   container.appendChild(plantImg);

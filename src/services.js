@@ -77,11 +77,11 @@ export default function services() {
   articles.appendChild(article4);
   articles.appendChild(article5);
 
-  const bimg = document.createElement("img");
-  bimg.classList.add("bk-photo");
-  bimg.src = imgSrc;
-  bimg.alt = "Image";
-  servicesContainer.appendChild(bimg);
+  const bImg = document.createElement("img");
+  bImg.classList.add("bk-photo");
+  bImg.src = imgSrc;
+  bImg.alt = "Image";
+  servicesContainer.appendChild(bImg);
 
   content.appendChild(servicesContainer);
 }

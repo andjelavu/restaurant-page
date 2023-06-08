@@ -1,5 +1,6 @@
 import imgSrc from "./imgs/contact.png";
-const contactUs = function () {
+
+const contactUs = () => {
   document.body.style.background = "";
 
   const container = document.createElement("div");
@@ -41,7 +42,7 @@ const contactUs = function () {
   form.appendChild(inputMsg);
   form.appendChild(submit);
   container.appendChild(form);
-  form.addEventListener("submit", function (event) {
+  form.addEventListener("submit", (event) => {
     event.preventDefault();
   });
 
