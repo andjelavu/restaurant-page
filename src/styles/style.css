@@ -43,6 +43,11 @@ ul {
 }
 .nav-element {
   cursor: pointer;
+  transition: transform 0s ease 0s;
+}
+.nav-element:hover{
+  transform: translateY(-5px);
+  text-transform: uppercase;
 }
 .hero {
   position: absolute;
@@ -87,8 +92,11 @@ ul {
   );
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
   border-radius: 58px;
+
+  transition: transform 0.3s ease 0s;
 }
 #bookbtn:hover {
+  transform: translateY(-10px);
   background: rgba(100, 127, 47, 0.42);
   backdrop-filter: blur(0.5px);
   border-radius: 58px;
